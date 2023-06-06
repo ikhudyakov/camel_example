@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for order",
+  "type": "object",
+  "properties": {
+    "orderId": {
+      "type": "string"
+    },
+    "initDate": {
+      "type": "string"
+    },
+    "modifiedDate": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "orderId",
+    "initDate",
+    "modifiedDate",
+    "status"
+  ]
+}

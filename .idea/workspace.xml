@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b83565c3-6b45-4ad7-bdf3-172592ff9428" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/CamelExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/camel_example/CamelExampleApplicationTests.java" afterDir="false" />
+    <list default="true" id="b83565c3-6b45-4ad7-bdf3-172592ff9428" name="Changes" comment="added post-method for getting JSON">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/controller/DefaultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/service/CamelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/utility/JsonValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/keystore/baeldung.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/json-schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/camel_example/CamelExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/camel_example/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/camel_example/CamelExampleApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/camel_example/ServerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,16 +52,33 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Ilya.Khudyakov/IdeaProjects/camel_example/src/main/resources/keystore",
     "onboarding.tips.debug.path": "C:/Users/Ilya.Khudyakov/IdeaProjects/camel_example/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya.Khudyakov\IdeaProjects\camel_example\src\main\resources\keystore" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ilya.Khudyakov\IdeaProjects\camel_example\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.camel_example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.camel_example.client" />
+      <recent name="com.example.camel_example.controller" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="CamelExampleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.camel_example.CamelExampleApplication" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.camel_example.Server" />
       <module name="camel_example" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CamelExampleApplication" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -78,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1686035107813</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init commit">
+      <created>1686036222111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686036222111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,5 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Init commit" />
+    <MESSAGE value="added post-method for getting JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post-method for getting JSON" />
   </component>
 </project>
